@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-
+import os
 def saveHistogram(array,tiles,path):
     assert(isinstance(array,np.ndarray))
     assert(array.shape[1] == len(titles))
